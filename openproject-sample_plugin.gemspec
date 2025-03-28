@@ -1,13 +1,13 @@
-require_relative "lib/my_plugin/version"
+require_relative "lib/openproject/sample_plugin/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "my_plugin"
-  spec.version     = MyPlugin::VERSION
+  spec.name        = "openproject-sample_plugin"
+  spec.version     = Openproject::SamplePlugin::VERSION
   spec.authors     = [ "Deepak Nagaraj" ]
-  spec.email       = [ "deepak@gmail.com" ]
+  spec.email       = [ "deepaknagaraj1997@gmail.com" ]
   spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of MyPlugin."
-  spec.description = "TODO: Description of MyPlugin."
+  spec.summary     = "TODO: Summary of Openproject::SamplePlugin."
+  spec.description = "TODO: Description of Openproject::SamplePlugin."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
-  spec.add_dependency "rails", '~> 7.0'
+  spec.add_dependency "rails", ">= 8.0.2"
 end

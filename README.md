@@ -1,4 +1,4 @@
-# MyPlugin
+# Openproject::SamplePlugin
 Short description and motivation.
 
 ## Usage
@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "my_plugin"
+gem "openproject-sample_plugin"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install my_plugin
+$ gem install openproject-sample_plugin
 ```
 
 ## Contributing
