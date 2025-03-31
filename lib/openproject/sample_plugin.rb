@@ -1,8 +1,9 @@
 require "openproject/sample_plugin/version"
 require "openproject/sample_plugin/engine"
 
-module Openproject
+
+module OpenProject
   module SamplePlugin
-    # Your code goes here...
+    require "open_project/sample_plugin/engine"
   end
 end
